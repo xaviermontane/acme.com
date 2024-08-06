@@ -1,0 +1,74 @@
+body{
+    background-color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+header{
+    padding: 20px;
+    width: 98%;
+    background-color: #cd5241;
+    box-shadow: 0 2px 15px #949494;
+    display: flex; 
+    justify-content: space-between; align-items: center;
+    list-style: none;
+}
+
+section, article, aside {
+    padding: 20px;
+}
+
+.header-logo{
+    float: left;
+    display: block;
+}
+
+.nav-bar{
+    background-color: #cd5241;
+    color: white;
+    padding: 20px;
+    display: inline-block;
+    list-style: none;
+}
+
+.nav-bar a{
+    color: white;
+    font-weight: bold;
+    padding: 40px;
+    text-decoration: none;
+}
+
+.form{
+    float: right;
+}
+
+.search-bar{
+    padding: 4px 5px;
+    border-radius: 3px;
+    margin-right: 1.5px;
+    transition: 0.25s;
+    border-style: none;
+    outline: none;
+}
+
+.search-button{
+    font-weight: 600;
+    padding: 5px 10px;
+    border-radius: 3px;
+    border-color: #830800;
+    border-width: 1px;
+    border-style: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.search-button:hover{
+    background-color: #830800;
+    color: white;
+    box-shadow: 3px 2px 6px #830800;
+}
+
+.search-button:active{
+    opacity: 0.75;
+}
