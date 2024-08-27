@@ -1,5 +1,6 @@
 body{
     background-color: #ffffff;
+    font-size: 1.1em;
     font-family: 'Roboto', sans-serif;
     margin: 0;
 }
@@ -10,7 +11,6 @@ header{
     background-color: #cd5241;
     box-shadow: 0 2px 15px #949494;
     display: inline-block; 
-    justify-content: space-between; align-items: center;
 }
 
 section, article, aside {
@@ -19,32 +19,23 @@ section, article, aside {
 
 .navbar {
     display: flex;
-    align-items: left;
-    justify-content: left;
-    text-align: left;
-    height: 100%;
-    width: 80%;
     margin: auto;
-  }
-
-  .navbar ul {
-    display: inline;
-  }
-
-.navbar a{
-    color: white;
-    margin: 0 40px;
-    margin-left: 25vh;
-    font-weight: bold;
-    text-decoration: none;
+    font-size: 1.2em;
 }
 
-.form-container{
-    display: inline-block;
-    width: 20px;
-    justify-content: center;
-    text-align: right;
-    padding: 5px
+.navbar a {
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    float: left;
+    padding: 0 40px;
+}
+
+.navbar ul {
+    margin: auto;
+    margin-left: 32vh;
+    padding: 0 40px;
+    list-style: none;
 }
 
 .search-bar{
