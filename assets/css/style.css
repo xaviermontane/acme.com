@@ -9,40 +9,47 @@ header{
     width: 98%;
     background-color: #cd5241;
     box-shadow: 0 2px 15px #949494;
-    display: flex; 
+    display: inline-block; 
     justify-content: space-between; align-items: center;
-    list-style: none;
 }
 
 section, article, aside {
     padding: 20px;
 }
 
-.header-logo{
-    float: left;
-    display: block;
-}
+.navbar {
+    display: flex;
+    align-items: left;
+    justify-content: left;
+    text-align: left;
+    height: 100%;
+    width: 80%;
+    margin: auto;
+  }
 
-.nav-bar{
-    background-color: #cd5241;
-    color: white;
-    padding: 20px;
-    display: inline-block;
-    list-style: none;
-}
+  .navbar ul {
+    display: inline;
+  }
 
-.nav-bar a{
+.navbar a{
     color: white;
+    margin: 0 40px;
+    margin-left: 25vh;
     font-weight: bold;
-    padding: 40px;
     text-decoration: none;
 }
 
-.form{
-    float: right;
+.form-container{
+    display: inline-block;
+    width: 20px;
+    justify-content: center;
+    text-align: right;
+    padding: 5px
 }
 
 .search-bar{
+    align-items: right;
+    align-items: right;
     padding: 4px 5px;
     border-radius: 3px;
     margin-right: 1.5px;
