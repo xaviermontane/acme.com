@@ -19,7 +19,7 @@ section, article, aside {
 
 .navbar {
     display: flex;
-    margin: auto;
+    margin: auto;   
     font-size: 1.2em;
 }
 
@@ -38,6 +38,22 @@ section, article, aside {
     list-style: none;
 }
 
+.banner {
+    background-image: url('/images/homepage-banner.jpg');
+    background-size: cover;
+    text-align: center;
+    background-position: center;
+    justify-content: center;
+    padding: 40px;
+    height: 693px;
+    width: 100%;
+}
+
+.arrow-button {
+    justify-content: space-around;
+    margin: 12vh 46vh;
+    align-items: center;
+}
 .search-bar{
     align-items: right;
     align-items: right;
